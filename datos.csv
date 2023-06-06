@@ -1,0 +1,233 @@
+ISIN;FONDO;Geografía;Clase de activo;Horizonte temporal;Rentabilidad a un año;Volatilidad;Link
+LU0094557526;MFS European Research;Euro;Blend;3;7,88%;15,10%;https://api.fundinfo.com/document/e3890eb0dff8816b3803db4caec17c2d_158852/MR_ES_es_LU0094557526_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+BE0940002729;DPAM Equities Europe Sustainable;Euro;Blend;1;9,67%;15,86%;https://api.fundinfo.com/document/2e04ea27edb2a8fc227ffaf600289571_356930/MR_ES_es_BE0940002729_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0224105477;BlackRock  Continental European Flexible;Euro;Blend - Ex UK;2;13,37%;20,29%;https://api.fundinfo.com/document/6545bc75adf5ef9dfa3f6b38b05dbc81_288738/MR_ES_es_LU0224105477_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240
+IE0033640594;GAM Continental European Equity;Euro;Blend - Ex UK;2;9,86%;16,82%;https://api.fundinfo.com/document/eb152e4c20ef85e838506f51f2fcf57d_144542/MR_ES_es_LU0260085492_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0117858679;JPMorgan Europe Strategic Growth;Euro;Growth;5;7,87%;16,45%;https://api.fundinfo.com/document/e5e301e1733e885e9ff291ccb14731d0_367858/MR_ES_en_IE00B4ZJ4188_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0260085492;Jupiter European Growth;Euro;Growth;4;11,44%;17,79%;https://api.fundinfo.com/document/581590a0b2868f425f08335ea02c41a5_148220/MR_ES_es_LU1670707527_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+IE00B4ZJ4188  ;Comgest Europe Growth;Euro;Growth;2;11,50%;21,58%;https://api.fundinfo.com/document/c9876bc44f40ddcb70d558a4063a6ff1_1245016/MR_ES_es_LU0028118809_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU1670707527;M&G European Strategic Value;Euro;Value;4;6,97%;16,71%;https://api.fundinfo.com/document/ee2be8a826a38d40c24cc569dd381847_425912/MR_ES_es_LU0210531983_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0028118809;Invesco Pan European Equity;Euro;Value;3;8,66%;19,07%;https://api.fundinfo.com/document/8e13b6da06c45a307ef30f7aa4d201fb_276995/MR_ES_es_LU0093502762_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0210531983;JPMorgan Europe Strategic Value;Euro;Value;3;4,63%;20,25%;https://api.fundinfo.com/document/6d074ab4dc2e1f7929fded23820cfd73_540842/MR_ES_es_LU0011889846_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0093502762;BlackRock Euro-Markets Fund;Euro;Zona Euro;4;12,03%;21,27%;https://api.fundinfo.com/document/4eb56a52029bb2a364f8ef4c2d88ded1_224067/MR_ES_es_LU0093666013_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0011889846;Janus Henderson Euroland;Euro;Zona Euro;1;10,97%;19,56%;https://api.fundinfo.com/document/776d4a336d80094890f9e1354700ca73_438277/MR_ES_es_LU2240056015_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0093666013;Franklin Templeton Euroland;Euro;Zona Euro;4;14,40%;17,70%;https://api.fundinfo.com/document/c5fde828a4a6bfb9141dd39ee4c119b0_438096/MR_ES_es_LU2240056445_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0251128657;Fidelity Euro Blue Chip;Euro;Zona Euro;1;8,86%;17,16%;https://api.fundinfo.com/document/2f036fe390cf879c78bc8b3efdcbcb79_450161/MR_ES_es_LU0261951528_RES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU2240056015;Lonvia Avenir Mid Cap Europe;Euro;Mid Cap Europa;4;7,11%;-;
+FR0010321810  ;Echiquier Agenor SRI Mid Cap Europe;Euro;Mid Cap Europa;5;6,96%;17,93%;https://api.fundinfo.com/document/42da0005e0596fc9e3936a1b1fe34c23_609312/MR_ES_es_LU0935229400_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU2240056445;Lonvia Avenir Mid Cap Euro;Euro;Mid Cap Eurozona;4;3,82%;-;https://api.fundinfo.com/document/8cedf68876d2ff5afcbb5246272f627b_470537/MR_ES_es_LU0353647737_RES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0631859229;Bellevue Entrepreneur Europe Small;Euro;Small Cap Europa;4;10,51%;18,27%;https://api.fundinfo.com/document/d7185f2a86f9c70f1481c62c59c475f1_484594/MR_ES_es_LU0563745743_YES_2023-03-31.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0261951528;Fidelity European Smaller Companies;Euro;Small Cap Europa;3;5,02%;19,33%;https://api.fundinfo.com/document/d2f4b8c41330f361e0e402e97f6766fd_456452/MR_ES_es_LU0261948904_RES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0131510165;Independance et Expansion - France Small;Euro;Small Cap Francia;4;6,43%;19,43%;
+LU0935229400;Seeyond Europe MinVol;Euro;Minima Volatilidad;1;8,25%;12,58%;https://api.fundinfo.com/document/e807e87c2631cfb2f892b358bb997c0e_459138/MR_ES_es_LU0261948227_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0353647737;Fidelity - European Dividend Fund;Euro;Objetivo Dividendos;2;6,37%;14,43%;https://api.fundinfo.com/document/811ef6651f17029a8b9d65e4502e81f2_302800/MR_ES_es_LU0083425479_YES_2020-01-31.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0563745743;Fidentiis Tordesillas Iberia;Euro;Espana y Portugal;5;10,84%;20,52%;https://api.fundinfo.com/document/60e0ea1a6f270d582192f3a1c6c8e5cb_390672/MR_ES_es_LU0117861202_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0261948904;Fidelity Iberia;Euro;Espana y Portugal;5;11,35%;16,39%;https://api.fundinfo.com/document/5b57756bafc2095742a57cd87f5aaf2a_295740/MR_ES_es_LU0106261372_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+ES0137381036;Gesconsult Renta Variable;Euro;Espana y Portugal;3;4,65%;16,84%;https://api.fundinfo.com/document/8eb088764b822823fd5ef0d18bd2d9e8_441661/MR_ES_es_LU0251131958_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+IE00B76P4R28;Liontrust Special Situations Fund;Pound Sterling;Reino Unido;3;1,16%;13,92%;https://api.fundinfo.com/document/123a6fd0961797fdafc8d44f5d57d009_177363/MR_ES_es_LU0225737302_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0345775018;Ninety One UK Alpha Fund;Pound Sterling;Reino Unido;5;6,43%;13,47%;https://api.fundinfo.com/document/c87d2efdcab5dce02b2ec1d1e91686e4_107660/MR_ES_es_LU0035765741_YES_2023-04-28.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0261948227;Fidelity Germany;Euro;Alemania;3;8,77%;18,94%;https://api.fundinfo.com/document/6f390b659bf0db00842c237af7c02af3_136513/MR_ES_es_LU1670627097_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0083425479;DNB Nordic Equities;Euro;Paises Nordicos;2;-0,32%;16,69%;https://api.fundinfo.com/document/192633cdd147fa14c7e1a03f91054bc3_263888/MR_ES_es_LU0674140396_RES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0117861202;JPMorgan America Equity;US Dollar;Blend;2;11,03%;17,83%;https://api.fundinfo.com/document/36a2b94a97692a354aab69e84eeb875b_161174/MR_ES_es_LU0133096635_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0234572021;Goldman Sachs - US CORE Equity Portfolio;US Dollar;Blend;5;6,55%;17,87%;https://api.fundinfo.com/document/9ca2747f665c782bd3f19a6e3bd50cb6_708247/MR_ES_en_LU0887931292_RES_2023-04-28.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0106261372;Schroder ISF US Large Cap;US Dollar;Blend;4;7,28%;15,48%;
+LU0251131958;Fidelity America;US Dollar;Blend;3;-3,77%;16,50%;https://api.fundinfo.com/document/9b913c81e40a7e38365372abb9ee37f6_428881/MR_ES_es_LU1261432659_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU1883854355;Amundi US Fundamental Growth;US Dollar;Growth;5;13,84%;19,57%;
+LU0225737302;Morgan Stanley US Advantage;US Dollar;Growth;1;20,55%;31,25%;https://api.fundinfo.com/document/0a4072a2156a665311fd018bbb7952c0_264600/MR_ES_es_LU0203975437_RES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0035765741;Vontobel US Equity;US Dollar;Growth;5;7,80%;17,17%;https://api.fundinfo.com/document/8f0df635938a869b7b4d352fb0376879_188034/MR_ES_es_LU1493953001_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU0174119429;T Rowe PriceUS Large-Cap Growth;US Dollar;Growth;1;22,20%;21,13%;https://api.fundinfo.com/document/8f0df635938a869b7b4d352fb0376879_188034/MR_ES_es_LU1493953001_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+IE00B19Z9505;Legg Mason US Large Cap Growth;US Dollar;Growth;2;19,27%;21,64%;https://api.fundinfo.com/document/b4646f6a5af5045de6cdbba64a99085e_416381/MR_ES_es_IE00B2NXKW18_YES_2022-11-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+LU1670627097;M&G North American Value;US Dollar;Value;5;4,26%;16,65%;
+LU0674140396;Robeco US Select Opportunities;US Dollar;Mid Cap;5;-1,58%;18,96%;
+LU0133096635;T Rowe Price US Smaller Companies;US Dollar;Small Cap;5;3,52%;17,96%;
+LU0887931292;BL - Equities Japan;Euro;Japon;4;14,55%;16,45%;
+IE00BFMM8V50;Blackrock Global Equity Selection;Euro;Global;1;6,87%;18,43%;
+LU1261432659;Fidelity Funds - World Fund;Euro;Global;5;7,49%;17,90%;
+LU2295319300;MS Global Brands;Euro;Global;1;5,04%;-;
+LU0203975437;Robeco BP Global Premium Equities;Euro;Global Value;4;0,81%;18,67%;
+LU1493953001;T.Rowe Global Value Equity;Euro;Global Value;5;0,64%;16,38%;
+LU0112467450 ;Nordea Global Stable Equity;Euro;Global Value;1;3,41%;14,80%;
+IE00B2NXKW18;Seilern Stryx World Growth;Euro;Global Growth;2;15,00%;23,08%;
+LU0690374615;Fundsmith Equity Fund Sicav;Euro;Global Growth;1;8,19%;16,11%;
+IE00B57PQG06;GAM Star Disruptive Growth Fund;Euro;Global Growth;5;5,89%;22,84%;
+BE0946564383;DPAM Equities New Gems Sustainable;Euro;Global Growth;2;15,53%;22,43%;
+LU2357235493;Nartex Equity Fund;Euro;Global Growth;5;10,24%;-;
+LU0570870567;Threadneedle Global Smaller Companies;Euro;Global Small Caps;2;7,11%;22,44%;
+LU1295551144;Capital Group New Perspective;Euro;Global Defensivo;4;9,95%;16,54%;
+LU1984711512;Janus Henderson Global Sustainable Equity;Euro;Global All Cap;1;8,84%;18,99%;
+LU0309191657;BL - Equities Dividend;Euro;Global Dividendo;5;5,51%;14,68%;
+DE000DWS1U90;DWS Top Dividende;Euro;Global Dividendo;3;-0,91%;13,89%;
+LU0261946445;Fidelity Asia Focus;Euro;Asia;2;-1,46%;19,77%;
+LU0345361124;Fidelity Asia Pacific Opportunities;Euro;Asia Pacifico;5;2,98%;21,02%;
+LU0217390656;JPMorgan - Pacific Equity Fund;Euro;Asia Pacifico;4;0,91%;19,17%;
+LU0187077309;Robeco Chinese Equities;Euro;China;5;-14,73%;28,01%;
+LU0717749021;Invesco China Focus Equity;Euro;China;1;-9,46%;28,16%;
+LU0106817157;Schroder ISF Emerging Europe;Euro;Europa del Este;5;16,07%;26,70%;
+LU1079763535;T Rowe Price Frontier Markets Equity;US Dollar;Frontier Markets;1;-0,09%;15,02%;
+LU0217576833;JPMorgan Emerging Markets Equity;Euro;Global Emergentes;1;0,00%;20,41%;
+LU1048684796;Fidelity Emerging Markets;Euro;Global Emergentes;2;0,77%;20,58%;
+LU1112791014;GAM Emerging Markets Equity;Euro;Global Emergentes;2;2,18%;20,13%;
+LU0582533245;Robeco QI Emerging Conservative Equities;Euro;Global E.M Defens.;2;5,62%;11,63%;
+LU0255979071;Pictet Indian Equities;Euro;India;5;1,81%;16,55%;
+LU0498184596;Aberdeen Standard Indian Equity;Euro;India;4;0,17%;16,65%;
+IE00B23S7K36;BNY Mellon Brazil Equity;Euro;Brasil;1;0,28%;30,09%;
+LU0171289498;BlackRock Latin America;Euro;Latinoamerica;2;11,42%;24,64%;
+LU0580275534;Bellevue Adamant Medtech & Services;Euro;Salud;1;2,19%;23,37%;
+LU0261952419;Fidelity Global Healthcare;Euro;Salud;1;-1,56%;14,57%;
+LU1587985570;Bellevue Adamant Asia Pacific Healthcare;Euro;Salud;3;-1,86%;17,40%;
+IE0002122038;Janus Henderson Global Life Sciences;Euro;Salud;3;-1,44%;20,53%;
+LU1864481624;Candriam Equities Oncology Impact;Euro;Salud;2;-1,02%;19,92%;
+LU0171307068;BlackRock World Healthscience;Euro;Salud;2;-2,28%;-;
+LU0880062913;JPM Global Healthcare;Euro;Salud;2;-2,13%;14,74%;
+LU0248320664;Pictet Health;Euro;Salud;5;0,63%;20,60%;
+IE00B3VXGD32;Polar Capital Biotechnology;Euro;Biotecnologia;3;2,19%;16,33%;
+LU1951229035;Natixis - Thematics Water Fund;Euro;Agua;5;3,23%;18,14%;
+LU1165135440  ;BNP Aqua;Euro;Agua;1;5,54%;20,07%;
+LU0104884860;Pictet Water;Euro;Agua;5;1,19%;17,56%;
+LU0187079347;Robeco Global Consumer Trends;Euro;Tendencias Globales;4;13,70%;22,90%;
+LU0474970190;Pictet Global Megatrend Selection;Euro;Tendencias Globales;1;4,78%;23,39%;
+LU1437676635;Pictet Global Thematic Opportunities;Euro;Tendencias Globales;2;5,36%;17,47%;
+LU1947902018;Nordea Global Listed Infrastructure Fund;Euro;Infraestructuras;1;-1,63%;15,49%;
+LU0329760770   ;DWS Invest Global Infrastructure;Euro;Infraestructuras;2;-3,23%;15,80%;
+LU1665237704  ;M&G Global Listed Infrastructure;Euro;Infraestructuras;5;1,30%;16,72%;
+LU0114722902;Fidelity Global Industrials;Euro;Industriales;3;3,86%;19,47%;
+LU0340559557;Pictet Timber;Euro;Recursos Naturales;2;0,19%;21,38%;
+LU2095319849;Natixis Thematics Subscription Economy Fund;Euro;Economia Suscripcion;2;2,70%;21,26%;
+LU0348926287;Nordea Global Climate and Environment;Euro;Ecologia;4;2,21%;18,64%;
+LU0503631714;Pictet - Global Environmental Opportunities;Euro;Ecologia;5;5,98%;20,52%;
+LU1863264153  ;DWS Invest ESG Climate Tech;Euro;Ecologia;2;6,48%;21,83%;
+LU0335216932;Morgan Stanley Global Brands;Euro;Consumo;5;4,18%;20,54%;
+LU0300736062;Franklin Natural Resources;US Dollar;Energia;3;-7,59%;26,38%;
+LU2145461757  ;RobecoSAM Smart Energy;Euro;Energias Alternativas;1;7,91%;26,99%;
+LU0171304719;BlackRock World Financials;Euro;Financiero;1;3,96%;-;
+LU1391767586  ;Fidelity Global Financial Services;Euro;Financiero;3;0,86%;21,14%;
+LU1700710939;Robeco Global Fintech Equities;Euro;Fintech;2;6,48%;23,10%;
+LU1103786700;CPR Silver Age;Euro;Tercera Edad;3;7,31%;14,45%;
+LU0264738294;Janus Henderson Global Property;Euro;Real Estate Europa;1;-2,18%;18,76%;
+LU0088927925;Janus Henderson Pan European Property;Euro;Real Estate Global;5;-2,92%;23,90%;
+LU0329429897;GAM Luxury Brands;Euro;Companias de Lujo;3;7,92%;22,41%;
+LU0345780281;Ninety One Global Gold Fund;US Dollar;Mineras de Oro;4;4,59%;33,82%;
+LU0474967303;Pictet Digital;Euro;Digital;5;17,27%;24,92%;
+LU1548497772;Allianz Global Artificial Intelligence;Euro;Inteligencia Artificial;4;19,76%;32,95%;
+LU1863263346;DWS Invest Artificial Intelligence;Euro;Inteligencia Artificial;1;24,04%;21,84%;
+LU1279334210;Pictet Robotics;Euro;Robotica;5;24,31%;23,14%;
+LU1502282558;Candriam Robotics & Innovative Technology;US Dollar;Robotica;2;17,19%;23,29%;
+IE00BHPRMV90;BNY Mellon Blockchain Innovation;Euro;Blockchain;3;9,71%;33,51%;
+LU1861215389;BlackRock Future of Transport;Euro;Movilidad;5;7,47%;30,66%;
+LU0270904781;Pictet Security;Euro;Seguridad;1;3,29%;19,19%;
+LU1213836080;Fidelity Global Technology;Euro;Tecnologia Global;2;17,47%;20,50%;
+LU0171310443;BlackRock World Technology;Euro;Tecnologia Global;5;23,24%;-;
+LU0260870158;Franklin Technology;Euro;Tecnologia Global;5;25,14%;26,44%;
+LU0210532015;JPM Europe Technology;Euro;Tecnologia Europa;4;10,42%;26,31%;
+LU1861216510;BlackRock Next Generation Technology;Euro;Tecnologia Global;4;11,41%;35,09%;
+LU0366534344;Pictet - Nutrition;Euro;Nutricion;1;2,51%;16,99%;
+LU0566417696;March Vini Catena;Euro;Vitivinicola;2;2,15%;15,44%;
+LU1931535931;Allianz Pet and Animal Wellbeing;Euro;Mascotas;1;4,83%;17,88%;
+ES0157638000;Gvc Gaesco 300 Places Worldwide;Euro;Turismo;3;14,89%;35,63%;
+LU0984246958;GAM Commodity;Euro;Materias primas;1;-10,10%;19,24%;
+ES0128520006;Renta 4 Monetario FI;Euro;Monetario EUR;1;0,99%;0,38%;
+FR0011365212;Amundi Ultra Short Term Bond;Euro;Monetario EUR;4;1,06%;0,55%;
+LU0366536711;Pictet - Sovereign Short-Term Money Market EUR;Euro;Monetario EUR;2;0,88%;0,28%;
+FR0013346079;Groupama Ultra Short Term Bond;Euro;Monetario EUR;1;1,31%;0,80%;
+LU1873132101;JPMorgan - USD Treasury;US Dollar;Monetario USD;2;1,63%;-;
+LU0049015760;Aberdeen Sterling Fund;Pound Sterling;Monetario GBP;1;1,40%;0,36%;
+ES0176954008;Renta 4 Renta Fija Corto Plazo;Euro;CP Agregado EUR;3;1,40%;3,67%;
+FR0010149120;Carmignac Securite;Euro;CP Agregado EUR;1;-0,18%;3,25%;
+ES0138922036;Gesconsult Corto Plazo;Euro;CP Agregado EUR;4;1,05%;0,62%;
+LU0093503810;BlackRock Euro Short Duration Bond;Euro;CP Agregado EUR;5;1,02%;2,16%;
+LU1731833304;Fidelity Global Short Duration Income;Euro;CP Agregado Global;2;0,76%;3,39%;
+LU1209509089;UBAM - Dynamic US Dollar Bond;Euro;CP Agregado USA;4;1,80%;1,29%;
+LU1162222563;Franklin US Low Duration;Euro;CP Agregado USA;5;1,40%;3,90%;
+LU0367640660;Epsilon Euro Bond;Euro;Gobiernos EUR;3;1,86%;7,32%;
+LU0408877842;JPMorgan Euro Government Short Duration Bond;Euro;Gobiernos EUR;3;0,48%;1,34%;
+LU0336683502;DPAM Bonds Government Sustainable;Euro;Gobiernos EUR;5;0,84%;5,76%;
+LU0549537040 ;BlueBay Investment Grade Euro Government Bond;Euro;Gobiernos EUR;4;1,04%;6,86%;
+LU0219442547;MFS US Government Bond Fund;US Dollar;Gobiernos USA;2;0,79%;5,46%;
+LU0128488383;Pictet USD Government Bonds;US Dollar;Gobiernos USA;4;1,49%;5,47%;
+LU0048622798;Fidelity US Dollar Bond Fund;US Dollar;Gobiernos USA;3;1,50%;6,47%;
+LU0157931550;Candriam Bonds Global Government ;Euro;Gobiernos Global;5;-0,67%;7,81%;
+LU0153585996;Vontobel EUR Corporate Bond Mid Yield;Euro;Credito IG EUR;4;1,06%;6,58%;
+LU0243957825;Invesco Euro Corporate Bond;Euro;Credito IG EUR;2;1,13%;6,10%;
+LU1694212348;Nordea Low Duration European Covered Bond;Euro;Credito CP EUR;4;-0,65%;1,20%;
+LU0076315455;Nordea - European Covered Bond;Euro;Credito Europa;5;-0,49%;4,33%;
+LU0012119607;Candriam Bonds Euro High Yield;Euro;High Yield Euro;3;3,27%;7,57%;
+LU0146924799;UBAM Corporate US Dollar Bond;US Dollar;Credito IG USD;2;1,82%;5,58%;
+IE00B11XZ434;PIMCO GIS Global Investment Grade Credit;Euro;Credito IG Global;2;0,76%;7,14%;
+LU0546920488;NN L US Credit;US Dollar;Credito IG USA;4;1,53%;8,70%;
+LU0622663176;Robeco Financial Institutions Bonds;Euro;Deuda Financiera;5;1,25%;6,88%;
+LU0765419576 ;SKY Harbor - U.S. Short Duration Sust. High Yield;Euro;HY Global CP;4;1,63%;11,87%;
+IE00B11XZ871;PIMCO GIS US High Yield Bond;US Dollar;HY USA;4;2,92%;8,84%;
+IE00B50VYD81;Salar Fund;Euro;Convertibles Global;1;2,64%;5,76%;
+LU0170291933;Candriam Bonds Global High Yield;Euro;High Yield Global;3;2,81%;7,39%;
+FI0008800511;Evli Short Corporate Bond;Euro;Credito Global CP;3;2,40%;3,63%;
+FI0008811997  ;Evli Nordic Corporate Bond;Euro;Bonos Nordicos;5;2,72%;3,99%;
+LU0517222054;DPAM Bonds EUR High Yield Short Term;Euro;HY CP EUR;4;2,57%;4,27%;
+IE00B65YMK29;Muzinich EnhancedYield Short-Term;Euro;Global Flexible CP;3;0,34%;3,23%;
+IE00BFMM8W67;Blackrock Fixed Income Selection;Euro;Global Flexible;2;-10,12%;6,36%;
+LU0133706050;Schroder ISF EURO Bond;Euro;Europa Aggregate;2;0,20%;6,86%;
+LU0170473374  ;Franklin European Total Return;Euro;Europa Aggregate;5;1,20%;6,31%;
+LU1161526576;Edmond de Rothschild -Bond Allocation;Euro;Global Flexible;5;-2,63%;5,52%;
+LU0853555380;Jupiter Dynamic Bond;Euro;Global Flexible;2;1,32%;7,17%;
+LU1340703070;MFS Global Opportunistic Bond Fund;Euro;Global Flexible;4;0,89%;5,82%;
+IE00B84J9L26;PIMCO GIS Income;Euro;Global Flexible;5;-0,08%;6,31%;
+LU0712123511  ;Morgan Stanley - Global Fixed Income Opp.;Euro;Global Flexible;3;1,18%;4,05%;
+LU2278574988;Buy & Hold Bond;Euro;Global Flexible;4;2,99%;-;
+FR0013202132;Sextant Bond Picking;Euro;Global Flexible;5;1,05%;5,84%;
+LU0322549691;Goldman Sachs Global Fixed Income Plus Ptf Hedged;Euro;Global Aggregate;1;0,98%;6,35%;
+LU1883849199;Amundi Pioneer U.S. Dollar Aggregate Bond;Euro;US Aggregate;3;0,15%;13,06%;
+IE0004858563;Janus Henderson - US Short Term Bond;US Dollar;US Aggregate;2;0,76%;2,83%;
+LU0106260564;Schroder USD Dollar Bond;US Dollar;US Aggregate;4;1,76%;6,36%;
+LU0803752129;BlackRock China Bond;Euro;China Flexible;1;0,94%;10,05%;
+FR0010696617;Groupama Index Inflation Monde;Euro;Bonos Ligados Inflacion;3;-0,53%;8,36%;
+LU1353951376;AXA Global Inflation Short Duration Bonds;Euro;Inflacion Corto Plazo;4;-0,20%;3,30%;
+LU0034353002;DWS Floating Rate Notes;Euro;Flotantes Europa;5;1,64%;0,85%;
+FR001400CC99;Lazard Credit 2027 ;Euro;RF Deuda A Plazo Fijo;2;1,84%;-;
+FR0012537348;Tikehau Global Credit 2025 ;Euro;RF Deuda A Plazo Fijo;1;0,70%;-;
+FR0014008W22;EdR Millesima World 2028;Euro;RF Deuda A Plazo Fijo;5;3,08%;-;
+LU0752071745;Vontobel Sustainable EM Local Curr. Bond;Euro;Deuda EM LLC;3;4,29%;11,54%;
+IE00B986FT65;Neuberger Berman EM Debt - Hard Currency;Euro;Deuda EM HC;3;-0,42%;13,34%;
+LU0622306818;Goldman Sachs EM Corporate Bond Ptf;Euro;Deuda EM Corp.;3;-0,03%;8,46%;
+ES0128522002;Renta 4 Valor Relativo;Euro;Renta Fija;2;1,25%;5,02%;
+LU0571102010;G FUND Alpha Fixed Income;Euro;Renta Fija;1;1,21%;0,59%;
+LU1694789451;DNCA Invest - Alpha Bonds;Euro;Renta Fija;3;2,83%;9,85%;
+LU1542977829;BlueBay Global Sovereign Opportunities Fund;Euro;Renta Fija;5;0,41%;7,22%;
+IE00B5B29K21;GAM Star Emerging Market Rates;Euro;RF Emergente;1;1,84%;4,90%;
+LU0494761835;Bellevue Global Macro;Euro;Global Macro;2;1,84%;7,43%;
+LU1829331633;Threadneedle Credit Opportunities;Euro;Credito;1;-1,29%;3,04%;
+LU0599946893;DWS Concept Kaldemorgen;Euro;Multiestrategia;1;4,24%;5,45%;
+ES0175437005;Dunas Valor Prudente;Euro;Multiestrategia;5;1,37%;0,78%;
+ES0175414012;Dunas Valor Equilibrio FI;Euro;Multiestrategia;1;2,82%;3,73%;
+ES0173321003;Renta 4 Pegasus;Euro;Multiestrategia;5;2,36%;5,90%;
+LU1882439323;Amundi Absolute Return Multi-Strategy;Euro;Multiestrategia;3;-3,77%;4,11%;
+LU1093756242;Franklin K2 Alternative Strategies Fund;Euro;Multiestrategia;5;-0,91%;4,84%;
+IE00BLP5S460;Jupiter Global Equity Absolute Return Fund;Euro;RV Global Market Neutral;1;2,13%;5,75%;
+LU0725892466;BlackRock Americas Diversified Equity Abs. Return;Euro;RV USA Market Neutral;5;-2,12%;5,28%;
+LU0411704413;BlackRock European Absolute Return;Euro;RV Europa Market Neutral;5;2,14%;6,36%;
+IE00B7V30396;BMO Real Estate Equity Market Neutral;Euro;Real Estate Market Neutral;4;1,64%;2,54%;
+LU0687943661;GAMCO Merger Arbitrage;Euro;Arbitraje M&A;4;-4,55%;10,17%;
+LU0264597617;Janus Henderson Pan European Alpha;Euro;Alternativo RV Europa;3;-1,10%;6,77%;
+LU1433232854;Pictet Atlas;Euro;Alternativo RV Global;5;1,82%;9,76%;
+LU1048657123;Fidelity Fast Global ;Euro;Alternativo RV Global;5;1,70%;21,72%;
+LU0496443887;Pictet Mandarin;Euro;Alternativo RV Asia;2;-0,66%;15,63%;
+LU1331971769;Eleva Absolute Return Europe;Euro;Alternativo RV Europa;3;3,68%;4,25%;
+IE00BLG2W007;Liontrust Europe Strategic Equity;Euro;Alternativo RV Europa;1;-4,87%;13,28%;
+LU1375654800;Fidentiis Iberia Long-Short;Euro;Alternativo RV Iberia;1;0,03%;13,49%;
+FR0010996736;La francaise Protectaux;Euro;Alternativo ;2;-1,09%;8,68%;
+ES0116567035;Cartesio X;Euro;Mixto Conservador;1;2,53%;7,65%;
+IE00BFMM8X74;Blackrock Multi Asset Conservative Selection;Euro;Mixto Conservador;5;1,58%;6,20%;
+LU1570387610;Ninety One Global Multi-Asset Income;Euro;Mixto Conservador;2;0,72%;5,04%;
+LU1941681956;Amundi Funds - Multi-Asset Sustainable Future;Euro;Mixto Conservador;3;2,41%;6,98%;
+LU0243957239;Invesco Pan European High Income;Euro;Mixto Conservador;1;2,43%;8,04%;
+IE00BDZS0L05;Pyrford Global Total Return;Euro;Mixto Conservador;5;-0,39%;4,56%;
+LU0227384020;Nordea Stable Return Fund;Euro;Mixto Moderado;4;2,00%;6,75%;
+DE000A0X7541;Acatis Gane Value Event;Euro;Mixto Moderado;2;10,26%;11,35%;
+LU0048292808;BL - Global 50;Euro;Mixto Moderado;4;4,07%;6,15%;
+LU1245471054;Flossbach von Storch - Multi Asset - Balanced;Euro;Mixto Moderado;2;3,15%;6,89%;
+LU1442549025 ;MFS Prudent Capital;Euro;Mixto Moderado;4;5,11%;9,11%;
+ES0118537002;Olea Neutral;Euro;Mixto Moderado;1;4,00%;7,68%;
+LU0941349192;Pictet Multi - Asset Global Opportunities;Euro;Mixto Flexible;4;1,08%;5,71%;
+LU2147879543;Tikehau Income Cross Assets;Euro;Mixto Flexible;3;2,49%;4,71%;
+LU0497415702;Eurizon Azioni Strategia Flessibile;Euro;Mixto Flexible;5;0,25%;9,32%;
+LU0808562614;MFS Prudent Wealth;Euro;Mixto Agresivo;3;4,43%;9,16%;
+LU0433182416;First Eagle Amundi - International;Euro;Mixto Agresivo;4;3,78%;13,74%;
+LU0592698954;Carmignac Emerging Patrimoine;Euro;Mixto Emergentes;1;4,90%;17,37%;
