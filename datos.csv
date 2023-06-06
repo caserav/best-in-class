@@ -1,5 +1,5 @@
-ISIN;FONDO;Geografía;Clase de activo;Horizonte temporal;Rentabilidad a un año;Volatilidad;Link
-LU0094557526;MFS European Research;Euro;Blend;3;7,88%;15,10%;https://api.fundinfo.com/document/e3890eb0dff8816b3803db4caec17c2d_158852/MR_ES_es_LU0094557526_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
+ISIN;FONDO;GeografÃ­a;Clase de activo;Horizonte temporal;Rentabilidad a un aÃ±o;Volatilidad;Link
+LU0094557526;MFS prueba Research;Euro;Blend;3;7,88%;15,10%;https://api.fundinfo.com/document/e3890eb0dff8816b3803db4caec17c2d_158852/MR_ES_es_LU0094557526_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
 BE0940002729;DPAM Equities Europe Sustainable;Euro;Blend;1;9,67%;15,86%;https://api.fundinfo.com/document/2e04ea27edb2a8fc227ffaf600289571_356930/MR_ES_es_BE0940002729_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
 LU0224105477;BlackRock  Continental European Flexible;Euro;Blend - Ex UK;2;13,37%;20,29%;https://api.fundinfo.com/document/6545bc75adf5ef9dfa3f6b38b05dbc81_288738/MR_ES_es_LU0224105477_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240
 IE0033640594;GAM Continental European Equity;Euro;Blend - Ex UK;2;9,86%;16,82%;https://api.fundinfo.com/document/eb152e4c20ef85e838506f51f2fcf57d_144542/MR_ES_es_LU0260085492_YES_2023-04-30.pdf?apiKey=2077cd04-8cd9-4f30-8c0b-b5cebc11240f
