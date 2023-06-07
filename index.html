@@ -65,7 +65,7 @@
         background-color: rgb(143, 144, 149); /* Color de fondo para la pestaña activa */
         color: #ffffff; /* Color de texto para la pestaña activa */
         font-weight: bold;
-	transform: scale(1.12);
+        transform: scale(1.12);
       }
 
       .tab:not(.active) {
@@ -214,35 +214,22 @@
       <div class="tab-content" id="tab-content-0">
         <div class="filter-container">
           <div class="filter">
-            <label class="filter-title" for="clasificacion-filter"> Clasificación:</label>
-            <select id="clasificacion-filter" class="filter-select" onchange="filterTable()">
+            <label class="filter-title" for="clasificacion-filter-0"> Clasificación:</label>
+            <select id="clasificacion-filter-0" class="filter-select" onchange="filterTable()">
               <option value="clase-activo">Clase de activo</option>
               <option value="geografia">Geografía</option>
               <option value="horizonte-temporal">Horizonte Temporal</option>
               <option value="riesgo">Riesgo</option>
             </select>
           </div>
-          <div class="file-input-container">
-            <label for="file-input">Seleccionar archivo </label>
-            <input type="file" id="file-input" accept=".csv" onchange="handleFileSelect(event)">
-          </div>
         </div>
 
         <div class="table-container">
-          <table id="data-table">
-            <thead>
-              <tr>
-                <th onclick="sortTable(0)">ISIN</th>
-                <th onclick="sortTable(1)">Fondo</th>
-                <th onclick="sortTable(2)">Geografía</th>
-                <th onclick="sortTable(3)">Clase de activo</th>
-                <th onclick="sortTable(4)">Horizonte Temporal</th>
-                <th onclick="sortTable(5)">Rentabilidad</th>
-                <th onclick="sortTable(6)">Volatilidad</th>
-                <th>Ficha</th> <!-- Cambiar el encabezado de la columna -->
-              </tr>
+          <table id="data-table-0">
+            <thead id="table-header-0">
+              <!-- Los nombres de las columnas se insertarán aquí desde el JavaScript -->
             </thead>
-            <tbody id="table-body">
+            <tbody id="table-body-0">
               <!-- Los datos de la tabla se insertarán aquí desde el JavaScript -->
             </tbody>
           </table>
@@ -252,35 +239,22 @@
       <div class="tab-content" id="tab-content-1" style="display: none;">
         <div class="filter-container">
           <div class="filter">
-            <label class="filter-title" for="clasificacion-filter-2"> Clasificación:</label>
-            <select id="clasificacion-filter-2" class="filter-select" onchange="filterTable()">
+            <label class="filter-title" for="clasificacion-filter-1"> Clasificación:</label>
+            <select id="clasificacion-filter-1" class="filter-select" onchange="filterTable()">
               <option value="clase-activo">Clase de activo</option>
               <option value="geografia">Geografía</option>
               <option value="horizonte-temporal">Horizonte Temporal</option>
               <option value="riesgo">Riesgo</option>
             </select>
           </div>
-          <div class="file-input-container">
-            <label for="file-input-2">Seleccionar archivo </label>
-            <input type="file" id="file-input-2" accept=".csv" onchange="handleFileSelect(event)">
-          </div>
         </div>
 
         <div class="table-container">
-          <table id="data-table-2">
-            <thead>
-              <tr>
-                <th onclick="sortTable(0, 1)">ISIN</th>
-                <th onclick="sortTable(1, 1)">FONDO</th>
-                <th onclick="sortTable(2, 1)">Geografía</th>
-                <th onclick="sortTable(3, 1)">Clase de activo</th>
-                <th onclick="sortTable(4, 1)">Horizonte Temporal</th>
-                <th onclick="sortTable(5, 1)">Rentabilidad</th>
-                <th onclick="sortTable(6, 1)">Volatilidad</th>
-                <th>Ficha</th> <!-- Cambiar el encabezado de la columna -->
-              </tr>
+          <table id="data-table-1">
+            <thead id="table-header-1">
+              <!-- Los nombres de las columnas se insertarán aquí desde el JavaScript -->
             </thead>
-            <tbody id="table-body-2">
+            <tbody id="table-body-1">
               <!-- Los datos de la tabla se insertarán aquí desde el JavaScript -->
             </tbody>
           </table>
@@ -289,24 +263,13 @@
     </div>
 
     <script>
-      let data = [];
-
-      function handleFileSelect(event) {
-        const file = event.target.files[0];
-        const reader = new FileReader();
-
-        reader.onload = function (e) {
-          const contents = e.target.result;
-          data = parseCSV(contents);
-          populateTable(data);
-        };
-
-        reader.readAsText(file);
-      }
+      let data = [[], []];
+      let headers = [[], []];
 
       function parseCSV(csv) {
         const lines = csv.split('\n');
         const data = [];
+        const headers = lines[0].trim().split(';');
 
         for (let i = 1; i < lines.length; i++) {
           const line = lines[i].trim();
@@ -317,7 +280,25 @@
           }
         }
 
-        return data;
+        return { data, headers };
+      }
+
+      function loadCSVFiles() {
+        const fileUrls = ['datos.csv', 'datos2.csv'];
+
+        fileUrls.forEach((url, index) => {
+          fetch(url)
+            .then((response) => response.text())
+            .then((contents) => {
+              const parsedData = parseCSV(contents);
+              data[index] = parsedData.data;
+              headers[index] = parsedData.headers;
+              populateTable(data[index], headers[index], index);
+            })
+            .catch((error) => {
+              console.error('Error al cargar el archivo CSV:', error);
+            });
+        });
       }
 
       let currentTab = 0;
@@ -345,12 +326,11 @@
       }
 
       function filterTable() {
-        let clasificacionFilter =
-          document.getElementById(currentTab === 0 ? 'clasificacion-filter' : 'clasificacion-filter-2').value;
+        let clasificacionFilter = document.getElementById(currentTab === 0 ? 'clasificacion-filter-0' : 'clasificacion-filter-1').value;
 
-        let sortedData = sortData(data, clasificacionFilter);
+        let sortedData = sortData(data[currentTab], clasificacionFilter);
 
-        populateTable(sortedData);
+        populateTable(sortedData, headers[currentTab], currentTab);
       }
 
       function sortData(dataToSort, clasificacion) {
@@ -385,7 +365,7 @@
       }
 
       function sortTable(columnIndex, tableIndex = 0) {
-        let table = document.getElementById(tableIndex === 0 ? 'data-table' : 'data-table-2');
+        let table = document.getElementById(`data-table-${tableIndex}`);
         let rows = Array.from(table.rows).slice(1); // Exclude header row
         let isAscending = true;
 
@@ -433,65 +413,60 @@
         }
       }
 
-      function populateTable(dataToUse) {
-        const tbody = document.getElementById('table-body');
-        const tbody2 = document.getElementById('table-body-2');
+      function populateTable(dataToUse, headersToUse, tableIndex) {
+        const tableHeader = document.getElementById(`table-header-${tableIndex}`);
+        const tbody = document.getElementById(`table-body-${tableIndex}`);
 
+        tableHeader.innerHTML = '';
         tbody.innerHTML = '';
-        tbody2.innerHTML = '';
 
-        if (currentTab === 0) {
-          dataToUse.forEach((row) => {
-            const tr = document.createElement('tr');
-            row.forEach((cell, index) => {
-              const td = document.createElement('td');
+        headersToUse.forEach((header) => {
+          const th = document.createElement('th');
+          th.textContent = header;
+          th.onclick = () => sortTable(Array.from(tableHeader.children).indexOf(th), tableIndex);
+          tableHeader.appendChild(th);
+        });
 
-              if (index === 0) {
-                const isinContainer = document.createElement('div');
-                isinContainer.style.display = 'flex';
-                isinContainer.style.alignItems = 'center';
+        dataToUse.forEach((row) => {
+          const tr = document.createElement('tr');
+          row.forEach((cell, index) => {
+            const td = document.createElement('td');
 
-                const copyButton = document.createElement('button');
-                copyButton.className = 'copy-button';
-                copyButton.textContent = 'Copiar';
-                copyButton.addEventListener('click', () => {
-                  copyToClipboard(cell);
-                });
+            if (index === 0) {
+              const isinContainer = document.createElement('div');
+              isinContainer.style.display = 'flex';
+              isinContainer.style.alignItems = 'center';
 
-                const isinValue = document.createElement('span');
-                isinValue.innerHTML = cell;
+              const copyButton = document.createElement('button');
+              copyButton.className = 'copy-button';
+              copyButton.textContent = 'Copiar';
+              copyButton.addEventListener('click', () => {
+                copyToClipboard(cell);
+              });
 
-                isinContainer.appendChild(copyButton);
-                isinContainer.appendChild(isinValue);
-                td.appendChild(isinContainer);
-              } else if (index === 7) {
-                const actionButton = document.createElement('button');
-                actionButton.className = 'action-button';
-                actionButton.textContent = 'Ficha';
-                actionButton.addEventListener('click', () => {
-                  openFichaURL(cell);
-                });
+              const isinValue = document.createElement('span');
+              isinValue.innerHTML = cell;
 
-                td.appendChild(actionButton);
-              } else {
-                td.textContent = cell;
-              }
+              isinContainer.appendChild(copyButton);
+              isinContainer.appendChild(isinValue);
+              td.appendChild(isinContainer);
+            } else if (index === headersToUse.length - 1) {
+              const actionButton = document.createElement('button');
+              actionButton.className = 'action-button';
+              actionButton.textContent = 'Ficha';
+              actionButton.addEventListener('click', () => {
+                openFichaURL(cell);
+              });
 
-              tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-          });
-        } else {
-          dataToUse.forEach((row) => {
-            const tr = document.createElement('tr');
-            row.forEach((cell) => {
-              const td = document.createElement('td');
+              td.appendChild(actionButton);
+            } else {
               td.textContent = cell;
-              tr.appendChild(td);
-            });
-            tbody2.appendChild(tr);
+            }
+
+            tr.appendChild(td);
           });
-        }
+          tbody.appendChild(tr);
+        });
       }
 
       function copyToClipboard(text) {
@@ -508,23 +483,6 @@
         window.open(url, '_blank');
       }
 
-      function loadDefaultData() {
-        const defaultFile = 'datos.csv';
-        const reader = new FileReader();
-
-        reader.onload = function (e) {
-          const contents = e.target.result;
-          data = parseCSV(contents);
-          populateTable(data);
-        };
-
-        fetch(defaultFile)
-          .then((response) => response.text())
-          .then((contents) => {
-            reader.readAsText(new Blob([contents]));
-          });
-      }
-
       function getCurrentDate() {
         const dateElement = document.getElementById('date');
         const currentDate = new Date();
@@ -532,7 +490,7 @@
         dateElement.textContent = currentDate.toLocaleDateString('es-ES', options);
       }
 
-      loadDefaultData();
+      loadCSVFiles();
       showTabContent();
       getCurrentDate();
     </script>
